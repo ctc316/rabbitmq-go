@@ -1,0 +1,21 @@
+# Logs
+logs
+*.log
+
+# OSX
+.DS_Store
+
+# git
+.gitignore
+.git/
+
+# IntelliJ
+.idea/
+
+.tmp/
+rabbitmq/
+docker-compose.yml
+DockerFile
+README.md
+LICENSE
+
