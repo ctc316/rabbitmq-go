@@ -11,7 +11,7 @@ $ cd rabbitmq-go
 Run both RabbitMQ and Go environment on Docker
 ```
 $ docker-compose up -d 
-$ docker attach go_client1
+$ docker exec -it go_client1 bash
 ```
 
 Install go dependency
