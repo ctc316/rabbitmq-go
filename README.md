@@ -10,7 +10,7 @@ $ cd rabbitmq-go
 
 Run both RabbitMQ and Go environment on Docker
 ```
-$ docker-compose up -d 
+$ docker-compose up -d
 $ docker exec -it go_client1 bash
 ```
 
@@ -31,12 +31,12 @@ $ password: "password"
 
 Send message to RabbitMQ
 ```
-$ go run send.go
+$ go run Tutorial1/send.go
 ```
 
 Receive message from RabbitMQ
 ```
-$ go run receive.go
+$ go run Tutorial1/receive.go
 ```
 
 ## License
